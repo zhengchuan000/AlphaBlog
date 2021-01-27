@@ -4,6 +4,9 @@
 - git config --list
 - rails generate scaffold Article title:string description:text
 - rails routes --expanded
+- rails generate migration create_articles
+- rails db:migrate
+- rails db:rollback # 强烈不推荐
 
 
 # Notes
