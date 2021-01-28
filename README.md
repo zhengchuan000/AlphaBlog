@@ -24,4 +24,5 @@ method_name.html.erb
 - rails routes --expanded后每一个route的prefix是什么意思, 和 article_controller中的article_path有什么关系, 和show.html.erb中的url又有什么关系
 - Article.new(params.require(:article).permit(:title, :description)) 什么意思
 - flash是什么时候触发的?
+- <%= form_with(model: @article, local:true) do |f| %> 为什么要在edit.html.erb中这样
 
